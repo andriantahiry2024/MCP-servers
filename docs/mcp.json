@@ -1,0 +1,44 @@
+{
+  "mcpServers": {
+   
+    "@databutton": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@databutton/databutton-mcp",
+        "--config",
+        "{}"
+      ]
+    },
+    "@firecrawl": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@mendableai/mcp-server-firecrawl",
+        "--config",
+        "{\"fireCrawlApiKey\":\"fc-48ef895f61fd4de39b663e88506dce13\"}"
+      ]
+    },
+    "@smithery-ai-github": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/github",
+        "--config",
+        "{\"githubPersonalAccessToken\":\"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\"}"
+      ]
+    }
+  }
+}
